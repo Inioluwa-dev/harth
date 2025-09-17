@@ -65,6 +65,8 @@ const ShowcaseSection = () => {
                       src={portraitImage} 
                       alt="Portrait original"
                       className="w-full rounded-lg shadow-lg"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                 </div>
@@ -85,6 +87,8 @@ const ShowcaseSection = () => {
                       src={portraitTransparent} 
                       alt="Portrait transparent"
                       className="w-full rounded-lg shadow-lg"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                 </div>

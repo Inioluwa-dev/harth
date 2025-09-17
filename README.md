@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo
 
-**Experience Harth in action:** [harth.web.app](https://harth.web.app)
+**Experience Harth in action:** [harth0.web.app](https://harth0.web.app)
 
 *Note: This is a frontend demonstration. The actual AI processing is handled by our backend services.*
 
@@ -58,7 +58,7 @@
 ## 🚀 How to Use
 
 ### Live Application
-**Simply visit [harth.web.app](https://harth.web.app) to use Harth directly in your browser!**
+**Simply visit [harth0.web.app](https://harth0.web.app) to use Harth directly in your browser!**
 
 ### For Developers
 *This section is for educational purposes only. Please respect the license terms.*
