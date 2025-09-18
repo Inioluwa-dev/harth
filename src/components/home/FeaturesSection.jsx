@@ -58,8 +58,8 @@ const FeaturesSection = () => {
       <div className="container-custom relative z-10">
         <div 
           className="text-center mb-16"
-          data-aos="fade-up"
-          data-aos-delay="100"
+          
+          
         >
           <span className="text-teal-400 text-sm font-semibold tracking-wider uppercase">
             Why Choose Us
@@ -77,8 +77,7 @@ const FeaturesSection = () => {
             <div 
               key={index}
               className="group relative"
-              data-aos="fade-up"
-              data-aos-delay={200 + (index * 100)}
+              
             >
               {/* Glow effect on hover */}
               <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-teal-600 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-lg"></div>

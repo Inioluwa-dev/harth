@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExampleShowcase = () => {
   return (
-    <div className="space-y-6 sm:space-y-8 order-3 lg:order-1" data-aos="fade-right">
+    <div className="space-y-6 sm:space-y-8 order-3 lg:order-1" >
       <div className="text-center lg:text-left">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">
           See the <span className="text-teal-400">Magic</span>

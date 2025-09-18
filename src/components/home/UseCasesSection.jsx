@@ -64,8 +64,8 @@ const UseCasesSection = () => {
       <div className="container-custom relative z-10">
         <div 
           className="text-center mb-16"
-          data-aos="fade-up"
-          data-aos-delay="100"
+          
+          
         >
           <span className="text-teal-400 text-sm font-semibold tracking-wider uppercase">
             Use Cases
@@ -83,8 +83,7 @@ const UseCasesSection = () => {
             <div 
               key={index}
               className="group relative"
-              data-aos="fade-up"
-              data-aos-delay={200 + (index * 100)}
+              
             >
               {/* AI Processing Glow */}
               <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-teal-600 rounded-xl opacity-0 group-hover:opacity-15 transition-opacity duration-300 blur-lg"></div>

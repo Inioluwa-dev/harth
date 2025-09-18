@@ -7,8 +7,8 @@ const CTASection = () => {
       <div className="container-custom">
         <div 
           className="bg-gradient-to-r from-teal-900 to-teal-800 rounded-2xl p-8 md:p-12"
-          data-aos="fade-up"
-          data-aos-delay="100"
+          
+          
         >
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">

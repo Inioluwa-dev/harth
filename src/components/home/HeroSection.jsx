@@ -1,19 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AnimatedSection from '../common/AnimatedSection';
 
 const HeroSection = () => {
   return (
     <div className="bg-gradient-to-b from-teal-900 to-black text-white min-h-screen flex items-center">
       <div className="container-custom w-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6" data-aos="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight" data-aos="fade-up" data-aos-delay="100">
-              Remove Background from Images <span className="text-teal-400 animate-pulse">Instantly</span>
-            </h1>
-            <p className="text-lg text-gray-300" data-aos="fade-up" data-aos-delay="200">
-              Professional-grade background removal powered by AI. Fast, accurate, and easy to use.
-            </p>
-            <div className="flex flex-row gap-3 sm:gap-6 items-center justify-center flex-wrap" data-aos="fade-up" data-aos-delay="300">
+          <AnimatedSection animation="fadeUp" className="space-y-6">
+            <AnimatedSection animation="slideUp" delay={0.1} duration={0.8}>
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+                Remove Background from Images <span className="text-teal-400 animate-pulse">Instantly</span>
+              </h1>
+            </AnimatedSection>
+            <AnimatedSection animation="fadeUp" delay={0.3} duration={0.7}>
+              <p className="text-lg text-gray-300">
+                Professional-grade background removal powered by AI. Fast, accurate, and easy to use.
+              </p>
+            </AnimatedSection>
+            <AnimatedSection animation="bounce" delay={0.5}>
+              <div className="flex flex-row gap-3 sm:gap-6 items-center justify-center flex-wrap">
               <div className="transform hover:scale-105 transition-all duration-300">
                 <Link
                   to="/remove-bg"
@@ -31,30 +37,39 @@ const HeroSection = () => {
                   Learn More
                 </a>
               </div>
-            </div>
-          </div>
+              </div>
+            </AnimatedSection>
+          </AnimatedSection>
 
-          <div className="grid grid-cols-2 gap-4" data-aos="fade-left" data-aos-delay="400">
+          <AnimatedSection animation="fadeRight" delay={0.4} duration={0.8}>
+            <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float" data-aos="zoom-in" data-aos-delay="500">
-                <i className="fas fa-cloud-upload-alt text-4xl text-teal-400 mb-2"></i>
-                <h3 className="font-semibold">Easy Upload</h3>
-                <p className="text-sm text-gray-300">Drag & drop or click to upload</p>
-              </div>
-              <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float" data-aos="zoom-in" data-aos-delay="600">
-                <i className="fas fa-wand-magic-sparkles text-4xl text-teal-400 mb-2"></i>
-                <h3 className="font-semibold">AI Processing</h3>
-                <p className="text-sm text-gray-300">Advanced AI technology</p>
-              </div>
+              <AnimatedSection animation="float" delay={0.6} duration={0.6}>
+                <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float-enhanced hover-lift">
+                  <i className="fas fa-cloud-upload-alt text-4xl text-teal-400 mb-2"></i>
+                  <h3 className="font-semibold">Easy Upload</h3>
+                  <p className="text-sm text-gray-300">Drag & drop or click to upload</p>
+                </div>
+              </AnimatedSection>
+              <AnimatedSection animation="float" delay={0.8} duration={0.6}>
+                <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float-enhanced hover-lift">
+                  <i className="fas fa-wand-magic-sparkles text-4xl text-teal-400 mb-2"></i>
+                  <h3 className="font-semibold">AI Processing</h3>
+                  <p className="text-sm text-gray-300">Advanced AI technology</p>
+                </div>
+              </AnimatedSection>
             </div>
             <div className="space-y-4 mt-8">
-              <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float" data-aos="zoom-in" data-aos-delay="700">
-                <i className="fas fa-download text-4xl text-teal-400 mb-2"></i>
-                <h3 className="font-semibold">Quick Download</h3>
-                <p className="text-sm text-gray-300">Get your image instantly</p>
-              </div>
+              <AnimatedSection animation="float" delay={1.0} duration={0.6}>
+                <div className="bg-teal-800/50 p-6 rounded-xl hover:bg-teal-800/70 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20 transform hover:scale-105 hover:-translate-y-2 animate-float-enhanced hover-lift">
+                  <i className="fas fa-download text-4xl text-teal-400 mb-2"></i>
+                  <h3 className="font-semibold">Quick Download</h3>
+                  <p className="text-sm text-gray-300">Get your image instantly</p>
+                </div>
+              </AnimatedSection>
             </div>
-          </div>
+            </div>
+          </AnimatedSection>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ const UploadCard = ({
   onStartProcessing 
 }) => {
   return (
-    <div className="flex justify-center lg:justify-end order-1 lg:order-2" data-aos="fade-left">
+    <div className="flex justify-center lg:justify-end order-1 lg:order-2" >
       <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8 w-full max-w-sm sm:max-w-md border border-gray-700/50 shadow-2xl">
         <div className="text-center">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">

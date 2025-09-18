@@ -5,7 +5,7 @@ const About = () => {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900">
       <div className="container-custom py-16">
         {/* Meet Mr Heritage Section */}
-        <section className="mb-20" data-aos="fade-up">
+        <section className="mb-20" >
           <div className="bg-gradient-to-br from-gray-900 via-black to-teal-900 rounded-2xl p-12 text-white border border-teal-500/20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -77,7 +77,7 @@ const About = () => {
         </section>
 
         {/* Our Story Section */}
-        <section className="mb-20" data-aos="fade-up">
+        <section className="mb-20" >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
@@ -126,7 +126,7 @@ const About = () => {
         </section>
 
         {/* Technology Section */}
-        <section className="mb-20" data-aos="fade-up">
+        <section className="mb-20" >
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Cutting-Edge Technology
@@ -138,7 +138,7 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50" data-aos="zoom-in" data-aos-delay="100">
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50"  >
               <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mb-6">
                 <i className="fas fa-robot text-white text-2xl"></i>
               </div>
@@ -149,7 +149,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50" data-aos="zoom-in" data-aos-delay="200">
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50"  >
               <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mb-6">
                 <i className="fas fa-bolt text-white text-2xl"></i>
               </div>
@@ -160,7 +160,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50" data-aos="zoom-in" data-aos-delay="300">
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700/50"  >
               <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mb-6">
                 <i className="fas fa-shield-alt text-white text-2xl"></i>
               </div>
@@ -175,7 +175,7 @@ const About = () => {
 
 
         {/* Mission & Vision */}
-        <section className="mb-20" data-aos="fade-up">
+        <section className="mb-20" >
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-gray-700/50">
               <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mb-6">
@@ -204,7 +204,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center" data-aos="fade-up">
+        <section className="text-center" >
           <div className="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl p-12 text-white border border-teal-400/20">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Ready to Transform Your Images?
