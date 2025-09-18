@@ -19,7 +19,7 @@ const ExampleShowcase = () => {
           <h3 className="text-base sm:text-lg font-semibold text-white mb-3 sm:mb-4">Before</h3>
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg">
             <img
-              src="/src/assets/brain.jpg"
+              src="/assets/brain.jpg"
               alt="Original brain image"
               className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-lg"
               loading="lazy"
@@ -35,12 +35,12 @@ const ExampleShowcase = () => {
             <div 
               className="w-full h-48 sm:h-56 md:h-64 rounded-lg"
               style={{
-                backgroundImage: 'url(/src/assets/checkerboard.svg)',
+                backgroundImage: 'url(/assets/checkerboard.svg)',
                 backgroundSize: '20px 20px'
               }}
             >
               <img
-                src="/src/assets/brain-transparent.png"
+                src="/assets/brain-transparent.png"
                 alt="Brain with transparent background"
                 className="w-full h-full object-cover rounded-lg"
                 loading="lazy"

@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import portraitImage from '../../assets/portrait.jpg';
-import portraitTransparent from '../../assets/portrait-transparent.png';
+// Images are now served from public folder
+const portraitImage = '/assets/portrait.jpg';
+const portraitTransparent = '/assets/portrait-transparent.png';
 
 const ShowcaseSection = () => {
   return (
@@ -79,7 +80,7 @@ const ShowcaseSection = () => {
                   <div 
                     className="rounded-xl overflow-hidden p-3 md:p-6 group-hover:scale-105 transition-transform duration-300"
                     style={{
-                      backgroundImage: 'url(/src/assets/checkerboard.svg)',
+                      backgroundImage: 'url(/assets/checkerboard.svg)',
                       backgroundSize: '20px 20px'
                     }}
                   >

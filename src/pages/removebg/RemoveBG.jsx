@@ -99,12 +99,7 @@ const Harth = () => {
       const processedImageUrl = await Promise.race([apiPromise, timeoutPromise]);
       setProcessedImage(processedImageUrl);
       
-      // Log processing time for debugging
-      const processingTime = Date.now() - processingStartTime;
-      console.log(`Image processed in ${processingTime}ms`);
-      
     } catch (error) {
-      console.error('Error processing image:', error);
       setProcessingError(error.message);
     } finally {
       setIsProcessing(false);
@@ -115,6 +110,11 @@ const Harth = () => {
   const closeProcessingModal = () => {
     setShowProcessingModal(false);
     setProcessingStep(0);
+    
+    // Clean up blob URL when user closes modal
+    if (processedImage && processedImage.startsWith('blob:')) {
+      URL.revokeObjectURL(processedImage);
+    }
   };
 
   const downloadImage = () => {
@@ -174,6 +174,11 @@ const Harth = () => {
         processingError={processingError}
         onDownload={downloadImage}
         onProcessAnother={() => {
+          // Clean up current processed image
+          if (processedImage && processedImage.startsWith('blob:')) {
+            URL.revokeObjectURL(processedImage);
+          }
+          
           setSelectedImage(null);
           setProcessedImage(null);
           setSelectedFile(null);

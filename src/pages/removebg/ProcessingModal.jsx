@@ -106,7 +106,7 @@ const ProcessingModal = ({
                   <div 
                     className="w-full h-48 sm:h-64 rounded-xl"
                     style={{
-                      backgroundImage: 'url(/src/assets/checkerboard.svg)',
+                      backgroundImage: 'url(/assets/checkerboard.svg)',
                       backgroundSize: '20px 20px'
                     }}
                   >
@@ -116,6 +116,12 @@ const ProcessingModal = ({
                       className="w-full h-full object-cover rounded-xl"
                       loading="lazy"
                       decoding="async"
+                      onError={(e) => {
+                        // Image failed to load
+                      }}
+                      onLoad={() => {
+                        // Image loaded successfully
+                      }}
                     />
                   </div>
                 </div>

@@ -46,7 +46,7 @@ const About = () => {
               <div className="text-center">
                 <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-teal-400/30 shadow-2xl">
                   <img 
-                    src="/src/assets/mr_h.png" 
+                    src="/assets/mr_h.png" 
                     alt="Mr Heritage - Olayoriju Inioluwa" 
                     className="w-full h-full object-cover"
                   />

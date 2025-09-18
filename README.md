@@ -1,7 +1,7 @@
 # Harth - AI Background Removal
 
 <div align="center">
-  <img src="src/assets/mr_h.png" alt="Harth Logo" width="120" height="120" style="border-radius: 50%;">
+  <img src="assets/mr_h.png" alt="Harth Logo" width="120" height="120" style="border-radius: 50%;">
   
   **Professional AI-powered background removal made simple, fast, and accessible to everyone.**
   
@@ -39,16 +39,16 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="src/assets/image.png" alt="Harth Hero Section" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+  <img src="assets/image.png" alt="Harth Hero Section" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
   <p><em>Beautiful hero section showcasing Harth's modern design</em></p>
   
   <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
     <div style="text-align: center;">
-      <img src="src/assets/brain.jpg" alt="Before" width="300" style="border-radius: 8px;">
+      <img src="assets/brain.jpg" alt="Before" width="300" style="border-radius: 8px;">
       <p><em>Before</em></p>
     </div>
     <div style="text-align: center;">
-      <img src="src/assets/brain-transparent.png" alt="After" width="300" style="border-radius: 8px; background: url('src/assets/checkerboard.svg') repeat; background-size: 20px 20px;">
+      <img src="assets/brain-transparent.png" alt="After" width="300" style="border-radius: 8px; background: url('assets/checkerboard.svg') repeat; background-size: 20px 20px;">
       <p><em>After</em></p>
     </div>
   </div>
